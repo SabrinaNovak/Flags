@@ -1,0 +1,18 @@
+{
+  "name": "novak/flagpackage",
+  "description": "4AI Flagpackage for use with the 4AI Demo",
+  "type": "library",
+  "license": "GPL",
+  "authors": [
+    {
+      "name": "Sabrina Novak",
+      "email": "nosabrina@icloud.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "HTL3R\\Flags\\": "src/HTL3R/Flags/"
+    }
+  },
+  "require": {}
+}
