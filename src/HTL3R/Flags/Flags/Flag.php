@@ -5,6 +5,7 @@
  * Date: 27.11.17
  * Time: 12:39
  */
+
 namespace HTL3R\Flags\Flags;
 
 abstract class Flag implements \HTL3R\Flags\Interfaces\FlagInterface
@@ -30,6 +31,34 @@ abstract class Flag implements \HTL3R\Flags\Interfaces\FlagInterface
         $this->width = $width;
         $this->height = $height;
         $this->color = $color;
+    }
+
+    /*
+     * Getter for protected variables
+     */
+    public function getName(): string
+    {
+        return $this->name;
+    }
+
+    public function getPrice(): string
+    {
+        return $this->price;
+    }
+
+    public function getWidth(): string
+    {
+        return $this->width;
+    }
+
+    public function getHeight(): string
+    {
+        return $this->height;
+    }
+
+    public function getColor(): string
+    {
+        return $this->color;
     }
 
     /**
