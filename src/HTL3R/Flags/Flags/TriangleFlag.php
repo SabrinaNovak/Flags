@@ -13,6 +13,14 @@ use HTL3R\Flags\Interfaces\FlagInterface as FlagInterface;
 
 class TriangleFlag extends Flag implements FlagInterface
 {
+    /**
+     * TriangleFlag constructor.
+     * @param $name
+     * @param $price
+     * @param $width
+     * @param $height
+     * @param $color
+     */
     public function __construct($name, $price, $width, $height, $color)
     {
         parent::__construct($name, $price, $width, $height, $color);
