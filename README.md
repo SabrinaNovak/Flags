@@ -30,13 +30,6 @@ A new file, _`composer.json`_, should now appear in your repository. It will pro
   ]
 }
 ```
-Let's switch back to your bash. 
-```
-$ composer require "novak/flagpackage": "[a stable version (e.g. "dev-master"]"
-$ composer install
-```
-After `composer install` there should appear a new file `autoload.php` in your `vendor` directory. This one's important - but we'll come back to that later. 
-
 **Tired? We still have work to do! :D**
 _Woooohooooo_
 
@@ -50,6 +43,13 @@ Now it is important that you add the following to your _`composer.json`_ file. (
   ]
 ```
 
+Let's switch back to your bash. 
+```
+$ composer require "novak/flagpackage": "[a stable version]"
+$ composer install
+```
+After `composer install` there should appear a new file `autoload.php` in your `vendor` directory. This one's important - but we'll come back to that later. 
+
 So, all in all your _`composer.json`_ should look this way: 
 ```
 {
@@ -57,7 +57,7 @@ So, all in all your _`composer.json`_ should look this way:
   "description": "[description]",
   "type": "project",
   "require": {
-    "novak/flagpackage": "[a stable version (e.g. "dev-master"]"
+    "novak/flagpackage": "[a stable version]"
   },
   "authors": [
     {
