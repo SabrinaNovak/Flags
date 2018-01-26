@@ -20,10 +20,11 @@ class RectangleFlag extends Flag implements FlagInterface
      * @param $width
      * @param $height
      * @param $color
+     * @param $langcode
      */
-    public function __construct($name, $price, $width, $height, $color)
+    public function __construct($name, $price, $width, $height, $color, $langcode)
     {
-        parent::__construct($name, $price, $width, $height, $color);
+        parent::__construct($name, $price, $width, $height, $color, $langcode);
     }
 
     /**
