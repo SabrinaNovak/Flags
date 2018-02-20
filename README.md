@@ -42,6 +42,11 @@ Now it is important that you add the following to your _`composer.json`_ file. (
     }
   ]
 ```
+It is generally safer to use the command line (e.g.: GIT bash) for this task, as this approach prevents you from accidentaly introducing typos in your composer.json file
+
+```
+composer config repositories.novakflags vcs https://github.com/SabrinaNovak/Flags.git
+```
 
 Let's switch back to your bash. 
 ```
