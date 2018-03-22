@@ -33,13 +33,9 @@ A new file, _`composer.json`_, should now appear in your repository. It will pro
 **Tired? We still have work to do! :D**
 _Woooohooooo_
 
-Switch back to your terminal.
-```
-$ composer config repositories.flags vcs https://github.com/SabrinaNovak/Flags
-```
-
 Let's switch back to your bash. 
 ```
+$ composer config repositories.flags vcs https://github.com/SabrinaNovak/Flags
 $ composer require "novak/flagpackage": "[a stable version]"
 $ composer install
 ```
