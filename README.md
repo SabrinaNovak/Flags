@@ -33,14 +33,9 @@ A new file, _`composer.json`_, should now appear in your repository. It will pro
 **Tired? We still have work to do! :D**
 _Woooohooooo_
 
-Now it is important that you add the following to your _`composer.json`_ file. (You need that _because_ this exclusive tool is not on [packagist](https://packagist.org/) available yet.)
+Switch back to your terminal.
 ```
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "https://github.com/SabrinaNovak/Flags"
-    }
-  ]
+$ composer config repositories.flags vcs https://github.com/SabrinaNovak/Flags
 ```
 
 Let's switch back to your bash. 
